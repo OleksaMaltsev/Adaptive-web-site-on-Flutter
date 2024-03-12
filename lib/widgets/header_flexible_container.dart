@@ -10,7 +10,6 @@ class HeaderFlexibleContainer extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-      // height: 100,
       child: Wrap(
         runSpacing: 20,
         alignment: WrapAlignment.spaceEvenly,
