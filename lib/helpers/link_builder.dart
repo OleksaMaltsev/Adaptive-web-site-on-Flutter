@@ -7,7 +7,7 @@ class LinkBuilder {
     String pieceOne = 'https://clickc';
     String pieceTwo = 'redit.g2a';
     String pieceThree = 'fse.com/click?p';
-    String pieceFour = 'id=21&offer_id=39&sub1=1&sub2=ClickCompetitor';
+    String pieceFour = 'id=21&offer_id=39&sub1=1&sub2=CCtestNetBrand';
 
     String result = pieceOne + pieceTwo + pieceThree + pieceFour;
 
