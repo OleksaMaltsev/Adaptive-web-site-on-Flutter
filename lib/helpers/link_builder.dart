@@ -16,6 +16,7 @@ class LinkBuilder {
 
   static _launchURL(String url) async {
     if (await canLaunchUrl(Uri.parse(url))) {
+      // you can change url here
       await launchUrl(Uri.parse(url));
     } else {
       throw 'Could not launch $url';
